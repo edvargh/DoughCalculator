@@ -1,0 +1,62 @@
+/* App.css */
+body {
+  background-color: #d2b48c; /* Tan, a softer and lighter version of the previous dark cappuccino */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure at least full viewport height, but can grow */
+  color: black; /* Ensures that all text is black */
+  overflow-y: auto; /* Allows vertical scrolling */
+}
+
+input[type="number"] {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white; /* Sets input fields to be white */
+  color: black; /* Text color inside inputs */
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+  color: black; /* Ensures label text is black */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ca5328; /* Orange color for the headline */
+}
+
+div button {
+  background-color: #ca5328; /* Orange color for the button */
+  color: white; /* White text color for the button */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-button {
+  background-color: #ddd; /* Default background */
+  border: 1px solid #ccc;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 5px; /* Space between buttons */
+  font-weight: normal;
+}
+
+.toggle-button.active {
+  background-color: #000000; /* Active state background */
+  color: white; /* Text color for active state */
+  font-weight: bold;
+}
