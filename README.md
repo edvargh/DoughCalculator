@@ -1,8 +1,31 @@
-# React + Vite
+# Dough Calculator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple dough ingredient calculator. Enter:
+- Total dough weight (grams)
+- Number of dough balls
+- Hydration (%)
+- Yeast type (dry or fresh)
 
-Currently, two official plugins are available:
+The app calculates suggested amounts of:
+- Flour
+- Water
+- Salt
+- Yeast
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech stack
+- React
+- Vite
+- JavaScript
+- HTML/CSS
+
+## How it works
+- Hydration is calculated as water relative to flour (baker’s percentage).
+- Salt is calculated as **2%** of flour weight.
+- Yeast is calculated as:
+  - **1%** of flour weight for dry yeast
+  - **2%** of flour weight for fresh yeast
+
+## Getting started
+```bash
+npm install
+npm run dev
