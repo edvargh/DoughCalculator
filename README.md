@@ -29,3 +29,6 @@ The app calculates suggested amounts of:
 ```bash
 npm install
 npm run dev
+
+## Screenshot
+![alt text](image.png)
