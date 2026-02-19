@@ -29,6 +29,7 @@ The app calculates suggested amounts of:
 ```bash
 npm install
 npm run dev
+```
 
 ## Screenshot
-![alt text](image.png)
+<img width="812" height="690" alt="DoughCalculator screenshot" src="https://github.com/user-attachments/assets/1e19a7f2-4ae1-46c3-b09f-46139be2d280" />
